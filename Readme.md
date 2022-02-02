@@ -8,7 +8,7 @@
 
 * [Program.cs](./CS/ImportInteractiveForms/Program.cs) (VB: [Program.vb](./VB/ImportInteractiveForms/Program.vb))
 <!-- default file list end -->
-# How to import AcroForm data from XML
+# PDF Document API - Import Interactive Form Data from an XML File
 
 
 This example demonstrates how to import AcroForm data (interactive form data) from XML format to a PDF document.<br><br>You can also import the AcroForm data from FDF, XFDF, and TXT formats, as described below.<br><br>
