@@ -7,13 +7,13 @@ namespace ImportInteractiveForms {
             using (PdfDocumentProcessor processor = new PdfDocumentProcessor()) {
 
                 // Load a PDF document with AcroForm data.
-                processor.LoadDocument("..\\..\\EmptyForm.pdf");
+                processor.LoadDocument("..\\..\\..\\EmptyForm.pdf");
 
                 // Import AcroForm data from an XML file.
-                processor.Import("..\\..\\InteractiveForm.xml");
+                processor.Import("..\\..\\..\\InteractiveForm.xml");
 
                 // Save the imported document.
-                processor.SaveDocument("..\\..\\InteractiveForm.pdf");
+                processor.SaveDocument("..\\..\\..\\InteractiveForm.pdf");
             }
         }
     }

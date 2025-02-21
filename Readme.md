@@ -7,18 +7,19 @@
 
 # PDF Document API - Import Interactive Form Data from an XML File
 
+This example demonstrates how to import AcroForm data (interactive form data) from XML format to a PDF document. You can also import the AcroForm data from FDF, XFDF, and TXT formats, as described below.
 
-This example demonstrates how to import AcroForm data (interactive form data) from XML format to a PDF document. You can also import the AcroForm data from FDF, XFDF, and TXT formats, as described below.
-
+>[!IMPORTANT]
+> You need a license for the **DevExpress Office File API Subscription** or **DevExpress Universal Subscription** to use the libraries listed below in production code.
 
 ## Implementation Details
 
-To import interactive forms from XML, FDF, XFDF, or TXT format to a PDF document: 
--  Call the <a href="https://documentation.devexpress.com/#DocumentServer/DevExpressPdfPdfDocumentProcessor_LoadDocumenttopic">PdfDocumentProcessor.LoadDocument</a> method to load a PDF document (e.g., from a file path), in which the data will be imported.
-- Call one of the <a href="https://documentation.devexpress.com/#DocumentServer/DevExpressPdfPdfDocumentProcessor_Importtopic">PdfDocumentProcessor.Import</a> overloaded methods, for example, with a specified XML file that contains imported data.
-- Use the <a href="https://documentation.devexpress.com/#DocumentServer/DevExpressPdfPdfDocumentProcessor_SaveDocumenttopic">PdfDocumentProcessor.SaveDocument </a> method to save the imported document.
+To import interactive forms from XML, FDF, XFDF, or TXT format to a PDF document:
+-  Call the [PdfDocumentProcessor.LoadDocument](https://docs.devexpress.com/OfficeFileAPI/DevExpress.Pdf.PdfDocumentProcessor.LoadDocument.overloads) method to load a PDF document (e.g., from a file path), in which the data will be imported.
+- Call one of the [PdfDocumentProcessor.Import](https://docs.devexpress.com/OfficeFileAPI/DevExpress.Pdf.PdfDocumentProcessor.Import.overloads) overloaded methods, for example, with a specified XML file that contains imported data.
+- Use the [PdfDocumentProcessor.SaveDocument](https://docs.devexpress.com/OfficeFileAPI/DevExpress.Pdf.PdfDocumentProcessor.SaveDocument.overloads) method to save the imported document.
 
-## Files to Review 
+## Files to Review
 
 * [Program.cs](./CS/ImportInteractiveForms/Program.cs) (VB: [Program.vb](./VB/ImportInteractiveForms/Program.vb))
 
